@@ -1,10 +1,10 @@
-# 🗂️ JobFlow — AI-Powered Job Search Dashboard
+# JobFlow — AI-Powered Job Search Dashboard
 
 A self-contained, local-first job search CRM with **Claude AI integration**. Built as a single HTML file with a lightweight Python server for persistent storage. No backend, no database, no cloud — runs entirely on your machine.
 
 ---
 
-## ✨ Features
+## Features
 
 ### Job Board & Pipeline
 - Card-based job board with fit score bars (color-coded: green ≥80, amber ≥60, red <60)
@@ -13,8 +13,8 @@ A self-contained, local-first job search CRM with **Claude AI integration**. Bui
 - Full-text search, filter by status, sort by score or date
 
 ### Claude AI Integration
-- **🤖 AI Score & Parse JD** — paste a job description, Claude scores your fit 0–100 and auto-fills all fields
-- **🔗 Fetch JD from URL** — paste a job link, automatically extracts title, company, salary, and full JD
+- ** AI Score & Parse JD** — paste a job description, Claude scores your fit 0–100 and auto-fills all fields
+- ** Fetch JD from URL** — paste a job link, automatically extracts title, company, salary, and full JD
 - **9-Step Application Agent** — full application workflow powered by Claude:
 
 | Step | Output |
@@ -37,7 +37,7 @@ A self-contained, local-first job search CRM with **Claude AI integration**. Bui
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 jobflow/
@@ -50,7 +50,7 @@ jobflow/
 
 ---
 
-## 🚀 Setup
+## Setup
 
 ### Option 1 — Browser Only (quickest)
 Double-click `JobSearch_System.html` to open in your browser. Jobs save to localStorage.
@@ -66,7 +66,7 @@ Press `Ctrl+C` to stop the server.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Open `JobSearch_System.html` in a text editor and update the `PROFILE` object near the top:
 
@@ -91,7 +91,7 @@ The AI prompts use this profile automatically — every cover letter, cold email
 
 ---
 
-## 🔑 API Key Setup
+## API Key Setup
 
 1. Open the dashboard
 2. Click **"No API Key"** in the bottom-left sidebar
@@ -102,21 +102,21 @@ Get an API key at [console.anthropic.com](https://console.anthropic.com)
 
 ---
 
-## 💰 API Credit Usage
+## API Credit Usage
 
 | Action | Calls | Approx. Tokens |
 |--------|-------|---------------|
-| 🤖 AI Score & Parse JD | 1 | ~800–1,000 |
-| ▶ Run single step (1–8) | 1 | ~1,000–1,500 |
-| 📄 Step 9 — Tailored Resume | 1 | ~2,500–3,500 |
-| 🔗 Fetch JD from URL | 1 | ~1,500–2,000 |
-| 🤖 Run All Steps | 9 | ~12,000–18,000 |
+| AI Score & Parse JD | 1 | ~800–1,000 |
+| Run single step (1–8) | 1 | ~1,000–1,500 |
+| Step 9 — Tailored Resume | 1 | ~2,500–3,500 |
+| Fetch JD from URL | 1 | ~1,500–2,000 |
+| Run All Steps | 9 | ~12,000–18,000 |
 
 **Tip:** Use **Copy Full Prompt** to paste into [claude.ai](https://claude.ai) and use your subscription instead of API tokens.
 
 ---
 
-## 🔒 Privacy
+## Privacy
 
 - API key stored only in browser localStorage and local `jobflow_data.json`
 - Job data never leaves your machine except when an AI button is clicked (JD text sent to Anthropic API)
@@ -125,7 +125,7 @@ Get an API key at [console.anthropic.com](https://console.anthropic.com)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -137,7 +137,7 @@ Get an API key at [console.anthropic.com](https://console.anthropic.com)
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 | Problem | Fix |
 |---------|-----|
