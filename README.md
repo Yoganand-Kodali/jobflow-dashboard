@@ -149,6 +149,6 @@ Get an API key at [console.anthropic.com](https://console.anthropic.com)
 
 ---
 
-## 📄 License
+## License
 
 MIT — free to use, fork, and adapt for your own job search.
