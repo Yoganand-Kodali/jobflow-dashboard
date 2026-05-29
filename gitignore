@@ -1,0 +1,14 @@
+# Your personal job data — never commit this
+jobflow_data.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDEs
+.vscode/
+.idea/
